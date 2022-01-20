@@ -1,0 +1,103 @@
+/* Home*/
+#home{
+ 
+  margin: 7%;
+  margin-top: 0;
+  background: rgb(8, 143, 42), rgba(0, 255, 21);
+  background-image: linear-gradient(rgb(8, 143, 42), rgba(0, 255, 21));
+  min-height: 200px;
+
+};
+
+
+.App-logo {
+  height: 100px;
+  width: 290px;
+  max-height: 7200px;
+  max-width: 2500px;
+  
+}
+.container1{
+  margin: 7%;
+  margin-top: -7%;
+  background: rgb(8, 243, 39);
+  background-image: linear-gradient(rgb(8, 243, 39));
+  min-height: 350px;
+  
+}
+.container2{
+  margin: 7%;
+  margin-top: -7%;
+  background: rgb(8, 243, 39);
+  background-image: linear-gradient(rgb(8, 243, 39));
+  height: 350px;
+  width:350px;
+  
+}
+.home-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+}
+.home-right {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+.Home-logo1{
+  margin: 1%;
+  margin-top: 1%;
+  height: 500px;
+  width: 600px;
+}
+
+.Register-logo{
+  margin: 1%;
+  margin-top: 1%;
+  height: 500px;
+  width: 600px;
+}
+
+.split {
+  margin-top: 0px;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  
+  
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: green;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(13, 209, 13);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+
+#log{
+  background: rgba(17, 179, 39, 0.774);
+  background: linear-gradient(90deg, rgba(0, 219, 29, 0.979) 40%,rgb(0, 255, 55) 100%);
+
+}
+
+
